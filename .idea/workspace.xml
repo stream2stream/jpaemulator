@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51a1b09e-5093-4d7a-971b-e3a1a29eafa0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/db/grad/javaapi/model/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/db/grad/javaapi/repository/DogsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/db/grad/javaapi/model/DogTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/db/grad/javaapi/repository/DogsRepositoryStub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/db/grad/javaapi/repository/DogsRepositoryStubTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/db/grad/javaapi/repository/DogsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/db/grad/javaapi/repository/DogsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/db/grad/javaapi/repository/DogsRepositoryStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/db/grad/javaapi/repository/DogsRepositoryStub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/db/grad/javaapi/repository/DogsRepositoryStubTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/db/grad/javaapi/repository/DogsRepositoryStubTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,15 +45,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.celestial" />
@@ -65,8 +64,8 @@
       <recent name="com.db.grad.javaapi.model" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DogsRepositoryStubTest.updateDogDetails">
-    <configuration name="DogsRepositoryStubTest.addDog" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DogsRepositoryStubTest.count_dogs_in_collection_after_change">
+    <configuration name="DogsRepositoryStubTest.count_dogs_in_collection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dogs_tdd" />
       <extension name="coverage">
         <pattern>
@@ -76,13 +75,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.db.grad.javaapi.repository" />
       <option name="MAIN_CLASS_NAME" value="com.db.grad.javaapi.repository.DogsRepositoryStubTest" />
-      <option name="METHOD_NAME" value="addDog" />
+      <option name="METHOD_NAME" value="count_dogs_in_collection" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DogsRepositoryStubTest.getDogById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DogsRepositoryStubTest.count_dogs_in_collection_after_change" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dogs_tdd" />
       <extension name="coverage">
         <pattern>
@@ -92,13 +91,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.db.grad.javaapi.repository" />
       <option name="MAIN_CLASS_NAME" value="com.db.grad.javaapi.repository.DogsRepositoryStubTest" />
-      <option name="METHOD_NAME" value="getDogById" />
+      <option name="METHOD_NAME" value="count_dogs_in_collection_after_change" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DogsRepositoryStubTest.getDogByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DogsRepositoryStubTest.delete_dog" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dogs_tdd" />
       <extension name="coverage">
         <pattern>
@@ -108,13 +107,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.db.grad.javaapi.repository" />
       <option name="MAIN_CLASS_NAME" value="com.db.grad.javaapi.repository.DogsRepositoryStubTest" />
-      <option name="METHOD_NAME" value="getDogByName" />
+      <option name="METHOD_NAME" value="delete_dog" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DogsRepositoryStubTest.removeDog" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DogsRepositoryStubTest.get_dog_by_name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dogs_tdd" />
       <extension name="coverage">
         <pattern>
@@ -124,13 +123,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.db.grad.javaapi.repository" />
       <option name="MAIN_CLASS_NAME" value="com.db.grad.javaapi.repository.DogsRepositoryStubTest" />
-      <option name="METHOD_NAME" value="removeDog" />
+      <option name="METHOD_NAME" value="get_dog_by_name" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DogsRepositoryStubTest.updateDogDetails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DogsRepositoryStubTest.update_dog_details" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dogs_tdd" />
       <extension name="coverage">
         <pattern>
@@ -140,19 +139,30 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.db.grad.javaapi.repository" />
       <option name="MAIN_CLASS_NAME" value="com.db.grad.javaapi.repository.DogsRepositoryStubTest" />
-      <option name="METHOD_NAME" value="updateDogDetails" />
+      <option name="METHOD_NAME" value="update_dog_details" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DogsRepositoryStubTest.updateDogDetails" />
-        <item itemvalue="JUnit.DogsRepositoryStubTest.removeDog" />
-        <item itemvalue="JUnit.DogsRepositoryStubTest.getDogByName" />
-        <item itemvalue="JUnit.DogsRepositoryStubTest.getDogById" />
-        <item itemvalue="JUnit.DogsRepositoryStubTest.addDog" />
+        <item itemvalue="JUnit.DogsRepositoryStubTest.count_dogs_in_collection_after_change" />
+        <item itemvalue="JUnit.DogsRepositoryStubTest.count_dogs_in_collection" />
+        <item itemvalue="JUnit.DogsRepositoryStubTest.delete_dog" />
+        <item itemvalue="JUnit.DogsRepositoryStubTest.update_dog_details" />
+        <item itemvalue="JUnit.DogsRepositoryStubTest.get_dog_by_name" />
       </list>
     </recent_temporary>
   </component>
@@ -177,5 +187,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

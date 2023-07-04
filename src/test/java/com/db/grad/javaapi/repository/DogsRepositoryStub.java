@@ -8,8 +8,7 @@ import java.util.List;
 public class DogsRepositoryStub implements DogsRepository {
     private ArrayList<Dog> itsDogs = new ArrayList<>();
 
-    @Override
-    public long addDog(Dog theDog) {
+    private long addDog(Dog theDog) {
         long result = 0;
         itsDogs.add(theDog);
         result = itsDogs.size();
@@ -18,7 +17,7 @@ public class DogsRepositoryStub implements DogsRepository {
     }
 
     @Override
-    public Dog getDogById(int id) {
+    public Dog findById(long id) {
         Dog result = null;
 
         for( Dog theDog: itsDogs)
@@ -31,7 +30,7 @@ public class DogsRepositoryStub implements DogsRepository {
     }
 
     @Override
-    public List<Dog> getDogByName(Dog aDog) {
+    public List<Dog> findByName(Dog aDog) {
         ArrayList<Dog> result = new ArrayList<>();
 
         for( Dog theDog: itsDogs)
@@ -44,21 +43,24 @@ public class DogsRepositoryStub implements DogsRepository {
     }
 
     @Override
-    public Dog updateDogDetails(Dog aDog) {
-        Dog result = null;
+    public long save(Dog aDog) {
+        Dog retrievedDog = null;
+        long result = -1;
 
         for( Dog theDog: itsDogs)
             if( theDog.getId() == aDog.getId()) {
-                result = theDog;
-                result.setName( aDog.getName() );
+                retrievedDog = theDog;
+                retrievedDog.setName( aDog.getName() );
                 break;
             }
+        if( retrievedDog == null )
+            result = addDog(aDog);
 
         return result;
     }
 
     @Override
-    public boolean removeDog(Dog aDog) {
+    public boolean delete(Dog aDog) {
         boolean result = false;
         long initialSize = itsDogs.size();
 
@@ -67,4 +69,25 @@ public class DogsRepositoryStub implements DogsRepository {
 
         return result;
     }
+
+    @Override
+    public  long count()
+    {
+        return this.itsDogs.size();
+    }
+
+    @Override
+    public  boolean existsById( long id )
+    {
+        boolean result = false;
+
+        for( Dog theDog: itsDogs)
+            if(theDog.getId() == id ) {
+                result = true;
+                break;
+            }
+
+        return result;
+    }
+
 }
