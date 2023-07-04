@@ -90,4 +90,10 @@ public class DogsRepositoryStub implements DogsRepository {
         return result;
     }
 
+    @Override
+    public  void    deleteAll()
+    {
+        itsDogs.clear();
+    }
+
 }

@@ -174,4 +174,25 @@ class DogsRepositoryStubTest {
         // assert
         assertEquals(expectedResult, actualResult);
     }
+
+    @Test
+    void    remove_all_dogs_in_collection()
+    {
+        // arrange
+        DogsRepositoryStub cut = new DogsRepositoryStub();
+        Dog theDog = new Dog();
+        theDog.setName("Bruno");
+        cut.save( theDog );
+        theDog = new Dog();
+        theDog.setName("Penny");
+        cut.save( theDog );
+        long expectedResult = 0;
+
+        // act
+        cut.deleteAll();
+        long actualResult = cut.count();
+
+        // assert
+        assertEquals(expectedResult, actualResult);
+    }
 }

@@ -11,4 +11,7 @@ public interface DogsRepository {
     boolean delete( Dog theDog );
     long count();
     boolean existsById( long id );
+
+    // Additional admin functionality
+    void    deleteAll();
 }
