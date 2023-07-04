@@ -20,7 +20,7 @@ public class DogHandlerTest
     }
 
     @Test
-    public  void    add_dogs_by_return_num_dogs_added()
+    public  void    add_dogs_by_return_number_of_dogs_in_repo()
     {
         // arrange
         DogHandler cut = new DogHandler(itsDogRepo);

@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51a1b09e-5093-4d7a-971b-e3a1a29eafa0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/celestial/DogHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/db/grad/javaapi/service/DogHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/db/grad/javaapi/repository/DogsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/db/grad/javaapi/repository/DogsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/celestial/DogHandlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/db/grad/javaapi/service/DogHandlerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/db/grad/javaapi/repository/DogsRepositoryStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/db/grad/javaapi/repository/DogsRepositoryStub.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/db/grad/javaapi/repository/DogsRepositoryStubTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/db/grad/javaapi/repository/DogsRepositoryStubTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/db/grad/javaapi/service/DogHandlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/db/grad/javaapi/service/DogHandlerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
